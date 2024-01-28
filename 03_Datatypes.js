@@ -1,7 +1,7 @@
 "use strict"    //treats all code of JS as newer version
 alert("Hello") //used when working on browser
 
-//**********************PRIMITIVE DATA TYPES *****************************
+//*******************  PRIMITIVE DATA TYPES  *************************
 
 let name= "Irfan" // string ***** 
 let age = 18 //number*********** 2 to power 53
