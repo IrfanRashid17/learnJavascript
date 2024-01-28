@@ -13,4 +13,4 @@ let isLoggedIn = false //bolean
 
 // typeof = > returns the type of data used
 console.log(typeof null)           //object
-console.log(typeof undefined)      //undefined
+console.log(typeof undefined)      //undefined 
