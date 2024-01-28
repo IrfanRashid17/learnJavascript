@@ -20,8 +20,9 @@ console.log(valueInScore)         //NaN - actually it is not number
 let isLoggedIn = 1
 let booleanIsLogged = Boolean(isLoggedIn)
 console.log(booleanIsLogged)
+
 //****************************************** Short Notes ******************************
 /*       value => output
          1 => true; 0 => false
          "" => false 
-         "irfan" => true*/
+         "irfan" => true */
