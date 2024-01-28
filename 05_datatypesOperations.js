@@ -29,4 +29,4 @@ console.log(gameCounter)          //prints 101, because it is now incremented no
 let val = 50 
 const preVal = ++val    //increments before printing
 console.log(preVal)      // 51
-console.log(val)         // 51
+console.log(val)         // 51 
