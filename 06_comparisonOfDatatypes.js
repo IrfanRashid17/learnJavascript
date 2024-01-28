@@ -14,4 +14,4 @@
  
     //===
     console.log("2" === 2 )  //strict check  i.e checks datatypes alongwith values  
-    console.log("2" === "2" ) //true as the datatype of both values is same
+    console.log("2" === "2" ) //true as the datatype of both values is same 
