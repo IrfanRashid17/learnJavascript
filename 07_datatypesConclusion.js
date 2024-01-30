@@ -33,3 +33,20 @@ const myFunction = function()
 
 //FOR FURTHER INFORMATION : VISIT BELOW LINK
 //     https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+                //  RETURN TYPE OF VARIABLES IN JS
+/*      1. PRIMITIVE DATATYPES
+            NUMBER => number
+            STRING => string
+            BOOLEAN => boolean
+            NULL => object
+            UNDEFINED => undefined
+            SYMBOL => symbol
+            BIGINT => bigint
+
+        2. NON-PRIMITIVE DATATYPES
+            ARRAY => object
+            FUNCTION => function or function object 
+            OBJECT => object
+*/
