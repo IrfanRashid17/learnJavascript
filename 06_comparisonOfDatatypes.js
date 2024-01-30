@@ -10,7 +10,7 @@
     console.log(undefined < 0)     //all false
     console.log(undefined > 0)
     console.log(undefined <= 0)   
-    console.log(undefined == 0)   
+    console.log(undefined == 0)     //compares without checking type of data stored in ...
  
     //===
     console.log("2" === 2 )  //strict check  i.e checks datatypes alongwith values  
