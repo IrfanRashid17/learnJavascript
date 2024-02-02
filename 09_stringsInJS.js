@@ -25,5 +25,5 @@ console.log(newVillage)
                     //SLICE FUNCTION
 const anotherVillage = myVillage.slice(-3, 4)   /*uses -ve values, turns from backwards also and
                                                   prints upto the  mentioned STOP character*/                       
-console.log(anotherVillage)
+console.log(anotherVillage) 
 
