@@ -1,4 +1,4 @@
-const name = "Irfan Rashid"
+const name = "Irfan-Rashid"
 
 const subjects = 5
 //console.log(name + subjects + " value");    //OUTDATED also NOT RECOMMENDED NOW 
@@ -27,3 +27,14 @@ const anotherVillage = myVillage.slice(-3, 4)   /*uses -ve values, turns from ba
                                                   prints upto the  mentioned STOP character*/                       
 console.log(anotherVillage) 
 
+                    //Strings with spaces
+const name2 = "     irfan  "
+console.log(name2)             //     irfan    
+console.log(name2.trim())     //prints without spaces
+
+const url = "https://irfan.com/irfan%22rashid" 
+console.log(url.replace('%22', '-'))            //replaces %22 with -
+console.log(url.includes('iriz'))                //false as iriz is not included in url variable
+
+const myDashedName = new String('Irfan-Rashid-Dar')        //'Irfan', 'Rashid', 'Dar'
+console.log(myDashedName.split('-'))                     //
