@@ -12,9 +12,9 @@ console.log(myDate.toLocaleDateString())      //2/5/2024
 console.log(myDate.toJSON())             //2024-02-05T13:34:47.549Z
 console.log(myDate.toLocaleString())    //2/5/2024, 7:07:51 PM
 
-//let myCreatedDate = new Date(2023, 0, 23)
-let myCreatedDate = new Date(2023, 2, 23)
-console.log(myCreatedDate.toDateString())
+let myCreatedDate = new Date(2023, 0, 23)     //******** Note: js counts months from 0 to 11 ********
+let myCreatedDate2 = new Date(2023, 2, 23)     //Output: Thu Mar 23 2023    // 2 represents Mar (0 - 11) 
+console.log(myCreatedDate2.toDateString())
 
 
 
