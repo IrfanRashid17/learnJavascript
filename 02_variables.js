@@ -16,4 +16,4 @@ console.log(accountEmail)
 console.log(accountCity);*/
 
 //**********************************
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);  //USED TO PRINT MULTIPLE VALUES IN THE TABULAR FORMAT, VARIABLES ARE SEPARATED BY COMMAS
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);  //USED TO PRINT MULTIPLE VALUES IN THE TABULAR FORMAT, VARIABLES ARE SEPARATED BY COMMAS 
