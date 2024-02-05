@@ -16,5 +16,20 @@ let myCreatedDate = new Date(2023, 0, 23)     //******** Note: js counts months 
 let myCreatedDate2 = new Date(2023, 2, 23)     //Output: Thu Mar 23 2023    // 2 represents Mar (0 - 11) 
 console.log(myCreatedDate2.toDateString())
 
+let otherCreatedDates = new Date('2023-12-19')     //Output:  12/19/2023 (MM/DD/YYYY)  remember returns invalid date if given 13 as MM
+console.log(otherCreatedDates.toLocaleString())
+
+let otherCreatedDates2 = new Date("01-14-2023")     
+console.log(otherCreatedDates2.toLocaleString())
+
+let myTimeStamp = Date.now()
+//console.log(otherCreatedDates2.getTime())
+
+console.log(Math.floor(Date.now()/1000))     //used to convert into seconds for short value
 
 
+let newDate = new Date()
+console.log(newDate)
+console.log(newDate.getMonth)
+console.log(newDate.getHours)
+console.log(`Today is ${newDate.getDay} and the month is ${newDate.getMonth} `)
