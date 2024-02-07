@@ -22,3 +22,32 @@ console.log(myArr)      // Output: [ 10, 1, 2, 3, 4, 'irfan rashid' ]
 
 myArr.shift()
 console.log(myArr)      //Output: [ 1, 2, 3, 4, 'irfan rashid' ]
+
+console.log(myArr.includes(6)) //returns boolean value
+console.log(myArr.indexOf(3))    //returns index of a particular data item
+
+const myNewArray = myArr.join()  
+console.log(myArr)
+console.log(myNewArray)      //prints same items but as a string
+console.log(typeof myArr)   //returns object type
+console.log(typeof myNewArray) //returns string type
+
+//********************* SLICE AND SPLILCE *********************
+console.log("A", myArr)          //values are: [1,2,3,4,"irfan rashid"]
+//use of slice
+const myn1 = myArr.slice(1,3)  // 1-start and 3-end index 
+console.log(myn1)               // prints  [ 2, 3 ] i.e it doesn't include end index
+
+console.log("B",myArr)             ////values are: [1,2,3,4,"irfan rashid"]
+//use of splice
+const myn2 = myArr.splice(1,3)   //1-start and 3-end index
+console.log(myn2)                //[ 2, 3, 4 ] i.e it includes end index
+
+console.log("C",myArr)      //prints : C [ 1, 'irfan rashid' ]
+
+//DIFFERENCE BETWEEN SLICE AND SPLICE
+//1. Slice doesn't manipulate the origival array, while
+//  Splice manipulates the original array 
+
+//2. Slice doesn't include the end range while as Splice includes the end range
+
