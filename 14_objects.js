@@ -28,3 +28,15 @@ const fruits = {
     "Variety": "Irfan Rashid Dar"
 }
 console.log(fruits[mySymbol])
+
+//*************** other functions in objects */
+jsUser.email = "irfan@amazon.com"        // updated email id here
+Object.freeze(jsUser)                   //freezed email id here
+jsUser.email = "irfan@microsoft.com"    // attempting to modify but cannot perform email id is freezed 
+console.log(jsUser["email"])
+
+//adding function in objects
+jsUser.greeting = function(){
+    console.log("Hello Code reader")
+}
+console.log(jsUser.greeting())
