@@ -12,9 +12,9 @@ const jsUser = {
     lastLoginDays: ["Monday, Friday"]
 }
 
-console.log(jsUser.email)            //not recommended
-console.log(jsUser["email"])        //recommended
-console.log(jsUser["full name"])       //full name is key but as string and can be accessed by ["full name"] not by .full name, so ["email"](square notation) etc type of accessing objects is highly recommended
+console.log(jsUser.email)            
+console.log(jsUser["email"])        //another method of accessig objects
+console.log(jsUser["full name"])       //full name is key but as string and can be accessed by ["full name"] not by .full name
 //console.log(jsUser.full name)       //error  and cannot be accessed 
 
 //*********************** TAKE SYMBOL AS A KEY IN OBJECTS AND PRINT *********************
