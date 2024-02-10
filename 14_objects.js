@@ -22,7 +22,7 @@ const mySymbol = Symbol("Symbol as key")
 
 const fruits = {
     name: "Apple",
-    rate: 120,
+    rate: 120,             
     [mySymbol]: "Symbol as key in objects",
     address: "Rahmoo",
     "Variety": "Irfan Rashid Dar"
