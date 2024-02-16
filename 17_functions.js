@@ -21,3 +21,18 @@ function sum(num1,num2){
 }
 const result = sum(3,7)
 console.log("Sum of two numbers is:", result)
+
+//****************** More ways by which arguments can be taken *********************
+
+function loginUserMessage(username){
+    if(username === undefined) {                     // or    if(!username)  
+            console.log("Please Akhi, write a username")
+            return                      
+    }
+    return `${username} is now logged in`
+}
+
+loginUserMessage("Irfan Rashid")   //it just returns and doesn't print anything
+console.log(loginUserMessage("Irfan Rashid"))
+console.log(loginUserMessage())        //returns undefined 
+
