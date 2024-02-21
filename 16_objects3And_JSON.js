@@ -29,13 +29,13 @@ This JSON syntax defines an employees object: an array of 3 employee records (ob
 
 *********** JSON Example **********/
 
-{
+/*{
 "employees": [
   {"firstName":"John", "lastName":"Doe"},
   {"firstName":"Anna", "lastName":"Smith"},
   {"firstName":"Peter", "lastName":"Jones"}
 ]
-}
+}*/
 
 /*JSON Data - A Name and a Value
 JSON data is written as name/value pairs, just like JavaScript object properties.
@@ -51,7 +51,7 @@ JSON arrays are written inside square brackets.
 Just like in JavaScript, an array can contain objects:
 */
 
-{
+/*{
 "employees": [
   {"firstName":"John", "lastName":"Doe"},
   {"firstName":"Anna", "lastName":"Smith"},
@@ -63,5 +63,4 @@ Just like in JavaScript, an array can contain objects:
 // random user me api
 
 //******************** tool for understanding JSON in better way **************
-//jsonformatter.org
-
+//jsonformatter.org*/
