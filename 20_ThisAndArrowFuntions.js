@@ -20,3 +20,15 @@ console.log(this)  //prints: {} empty object because we are in the Node environm
 //IMPORTANT: when executing in browser, THIS shows WINDOW object 
 
 
+/*function cricket(){
+    console.log(this)
+}
+cricket()
+
+//*********************** Arrow functions *******************************/
+const cricket = () => {
+    console.log(this)
+}
+cricket()
+
+
