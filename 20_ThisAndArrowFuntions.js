@@ -29,6 +29,19 @@ cricket()
 const cricket = () => {
     console.log(this)
 }
-cricket()
+cricket()     
+
+/*const sum = (num1,num2) => {
+    return num1 + num2
+}
+console.log(sum(4,5))
+*/
+
+const sum = (num1,num2) => (num1 + num2)    //implicit return //parenthesis aren't used //and return keyword is also omitted  //techique is used highly in REACT 
+console.log(sum(4,5))
+
+
+// const sum = (num1,num2) => (username: "irfan")  //error we need to write objects in curly parenthesis
+const newObject = () => ({username: "irfan"})
 
 
