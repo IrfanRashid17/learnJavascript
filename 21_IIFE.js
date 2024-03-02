@@ -11,7 +11,7 @@
     console.log("I'm here, Bro")
 })();              //if semicolon not given, then there will be error
 
-( (name) => {
+( (name) => {                //parameterized IIFE
     console.log(`I'm here, ${name}`)
 })("brother")             //passing argument explicitly
 
